@@ -9,7 +9,7 @@ BaselineOfPharoSymbolResolver >> baseline: spec [
 	<baseline>
 	spec for: #common
 		do: [ spec
-				baseline: 'FAST-Pharo'
+				baseline: 'FASTPharo'
 					with: [ spec
 						repository: 'github://CafeKrem/FAST-Pharo:feature-addScope/src' ];
 				package: 'PharoSymbolResolver' ]
